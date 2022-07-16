@@ -1,10 +1,8 @@
 import React from 'react';
 
-const DemoOutput = () => {
+const DemoOutput = (props) => {
     return (
-        <div>
-            <p>This is new!</p>
-        </div>
+            <p>{props.show  ? 'This is new!' : ''}</p>
     );
 };
 
