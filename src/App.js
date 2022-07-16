@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <h1>Hi there!</h1>
-      {showParagraph && <p>this is new</p>}
+      {/* {showParagraph && <p>this is new</p>} */}
       <Button buttonOnClick={toggleParagraphHandler}>Toggle Paragraph!</Button>
     </div>
   );
