@@ -1,3 +1,7 @@
+///mainly this module need to use when i will see my application is slow
+//or i need to improve my application than i may use this module to improve 
+
+
 import { useState, useCallback } from "react";
 import "./App.css";
 import Button from "./components/UI/Button/Button";
@@ -25,4 +29,4 @@ function App() {
 
 export default App;
 
-//morning 010 and 011 video complete kore than module 13 y move korbu
+
